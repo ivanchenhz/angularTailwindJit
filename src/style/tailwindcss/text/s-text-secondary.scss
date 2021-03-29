@@ -1,0 +1,13 @@
+@layer components {
+  .text-secondary {
+    @apply tw-text-gray-70;
+  }
+
+  .tw-dark .dark\:text-secondary {
+    @apply tw-text-gray-40;
+  }
+
+  .s-text-secondary {
+    @apply text-secondary dark:text-secondary;
+  }
+}

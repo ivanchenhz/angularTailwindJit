@@ -1,0 +1,13 @@
+@layer components {
+  .text-primary {
+    @apply tw-text-gray-100;
+  }
+
+  .tw-dark .dark\:text-primary {
+    @apply tw-text-gray-05;
+  }
+
+  .s-text-primary {
+    @apply text-primary dark:text-primary;
+  }
+}
