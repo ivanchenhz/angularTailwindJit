@@ -1,0 +1,13 @@
+@import "src/style/tailwindcss/style";
+
+.apply-primary {
+  @apply s-text-primary;
+}
+
+.apply-secondary {
+  @apply s-text-secondary;
+}
+.hello {
+  @apply tw-w-60 tw-h-24 tw-bg-pink-60;
+}
+
