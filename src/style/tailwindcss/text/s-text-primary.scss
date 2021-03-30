@@ -6,8 +6,13 @@
   .tw-dark .text-primary {
     @apply tw-text-gray-05;
   }
-
-  .s-text-primary {
-    @apply text-primary;
-  }
 }
+
+.text-primary--layer {
+  @apply tw-text-gray-100;
+}
+
+.tw-dark .text-primary--layer {
+  @apply tw-text-gray-05;
+}
+

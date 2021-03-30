@@ -6,8 +6,12 @@
   .tw-dark .text-secondary {
     @apply tw-text-gray-40;
   }
+}
 
-  .s-text-secondary {
-    @apply text-secondary;
-  }
+.text-secondary--layer {
+  @apply tw-text-gray-70;
+}
+
+.tw-dark .text-secondary--layer {
+  @apply tw-text-gray-40;
 }

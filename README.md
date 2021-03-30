@@ -1,6 +1,6 @@
 # AngularTailwindJit
 
-For reproduce the tailwind-jit recursive @apply issue in watch mode (Angular)
+For reproduce the tailwind-jit doesn't watch changes in @layer (Angular)
 
 ## Project setup
 
@@ -17,5 +17,7 @@ Run `npm run start`
 
 Try to modify something in 's-text-primary.scss'
 
-It won't take effect unless re-start the dev server
+In @layer section, it won't take effect unless re-start the dev server
+
+Out @layer it works fine ...
 
